@@ -33,7 +33,6 @@
                 <label for="inventory_id" class="form-label">Inventory ID</label>
                 <select class="form-control" id="inventory_id" name="inventory_id">
                     @if (!$sale->inventory_id)
-                        <!-- Jika tidak ada nilai awal -->
                         <option value="" selected>Pilih Inventory</option>
                     @endif
 
